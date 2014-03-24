@@ -1,0 +1,70 @@
+#left-panel #logo {
+	margin:10px;
+	width:200px;
+}
+
+#left-panel {
+	border-right:solid 10px #8a8;
+	padding:20px;
+	width: 263px;
+	min-height:100%;
+	float:left;
+	top:0;
+	left:0;
+	position:fixed; 
+	background-color: #fff;
+	text-align:center;
+	font-family: 'Allan', cursive;
+	font-size:20px;
+}
+#left-panel p {
+	
+
+}
+
+#main {
+	margin-left: 260px;
+	width: 774px;
+	float:left;
+	min-height:100%;
+	padding:10px;
+	position:realtive;
+	background-color: #8a8;
+	color:#fff;
+}
+h1, h2{
+	font-family: 'Sofadi One', cursive;
+	font-weight:bold;
+	margin:5px;
+}
+h2
+{
+color: #A250E6;
+}
+#main p{
+	line-height:1.5em;
+}
+#main .answer{
+
+	font-size:1.5em;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.fastdetail {
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+	display: block;
+	width:200px;
+	font-size:2em;
+	font-weight:bold;
+	font-family: 'Sofadi One', cursive;
+	color: #daf;
+}
+
+a {
+	color: #ccf;
+}
+
+body{
+	background-color: #8a8;
+}
