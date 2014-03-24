@@ -4,14 +4,7 @@
 }
 
 #left-panel {
-	border-right:solid 10px #8a8;
-	padding:20px;
-	width: 263px;
-	min-height:100%;
-	float:left;
-	top:0;
-	left:0;
-	position:fixed; 
+	height:100%;
 	background-color: #fff;
 	text-align:center;
 	font-family: 'Allan', cursive;
@@ -23,12 +16,6 @@
 }
 
 #main {
-	margin-left: 260px;
-	width: 774px;
-	float:left;
-	min-height:100%;
-	padding:10px;
-	position:realtive;
 	background-color: #8a8;
 	color:#fff;
 }
@@ -61,10 +48,15 @@ color: #A250E6;
 	color: #daf;
 }
 
+body, html {
+	height:100%;
+}
+
 a {
 	color: #ccf;
 }
 
-body{
+html, body{
 	background-color: #8a8;
+
 }
