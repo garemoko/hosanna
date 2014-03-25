@@ -1,64 +1,113 @@
-#left-panel #logo {
-	margin:10px;
+#main-nav
+{
+	background-color: #ec1d23;
+	color: #fff;
+	border-bottom: 3px solid #E5EC1D;
+	font-family: 'Marcellus SC', serif;
+}
+
+.navbar-default .navbar-brand {
+	color:#fff;
+}
+
+.navbar-default:hover .navbar-brand:hover {
+	color:#EC9D1D;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #EC9D1D;
+}
+
+.logo{
 	width:200px;
 }
 
+.logo-small{
+	width:100px;
+}
+
 #left-panel {
-	height:100%;
 	background-color: #fff;
 	text-align:center;
 	font-family: 'Allan', cursive;
 	font-size:20px;
+	border-right: 3px solid #E5EC1D;
 }
-#left-panel p {
-	
+
+#details{
+	border-left: 3px solid #E5EC1D;
+}
+
+.video-box {
+	text-align:center;
+	padding-top: 25px;
 
 }
 
 #main {
-	background-color: #8a8;
-	color:#fff;
+	background-color: #fff;
+	color:#222;
+}
+
+h1{
+	text-transform:uppercase;
+	color: #ec1d23;
+	font-size:30px;
 }
 h1, h2{
-	font-family: 'Sofadi One', cursive;
+	
+	/*font-family: 'Sofadi One', cursive;*/
+	font-family: 'Marcellus SC', serif;
 	font-weight:bold;
-	margin:5px;
+	
 }
-h2
-{
-color: #A250E6;
+h2{color: #EC9D1D;}
+
+h2.color-two {color:#ECD41D}
+
+.title {
+	text-align:center;
+	font-family: 'Allan', cursive;
 }
+
 #main p{
 	line-height:1.5em;
 }
 #main .answer{
-
 	font-size:1.5em;
-	font-family: 'Alegreya Sans', sans-serif;
-	margin-left: 200px;
-	display: block;
 }
+#main .answer a{
+	font-size:0.7em;
+}
+
 .fastdetail {
-	text-align: right;
+
 	padding-right: 10px;
 	float: left;
-	display: block;
-	width:200px;
+
 	font-size:2em;
 	font-weight:bold;
-	font-family: 'Sofadi One', cursive;
-	color: #daf;
+	
 }
 
-body, html {
-	height:100%;
+#page {
+	background-color: #fff;
+	padding-bottom:50px;
 }
 
 a {
-	color: #ccf;
+	color: #1D35EC;
+}
+a:hover {
+	color: #1D35EC;
 }
 
 html, body{
-	background-color: #8a8;
-
+	background-color: #bcbdbf;
+	font-family: 'Alegreya Sans', sans-serif;
 }
+
