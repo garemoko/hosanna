@@ -42,6 +42,15 @@
 	border-left: 3px solid #E5EC1D;
 }
 
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+	#details{
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+}
+
 .video-box {
 	text-align:center;
 	padding-top: 25px;
@@ -57,6 +66,10 @@ h1{
 	text-transform:uppercase;
 	color: #ec1d23;
 	font-size:30px;
+	
+	transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg); 
+	-webkit-transform:rotate(-5deg);
 }
 h1, h2{
 	
@@ -78,10 +91,10 @@ h2.color-two {color:#ECD41D}
 	line-height:1.5em;
 }
 #main .answer{
-	font-size:1.5em;
+	font-size:1.2em;
 }
 #main .answer a{
-	font-size:0.7em;
+	font-size:0.85em;
 }
 
 .fastdetail {
@@ -92,6 +105,16 @@ h2.color-two {color:#ECD41D}
 	font-size:2em;
 	font-weight:bold;
 	
+}
+
+#vladka_carl {
+	float:right;
+	margin:15px;
+	width:275px;
+	border:3px dashed #E5EC1D;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
 }
 
 #page {
