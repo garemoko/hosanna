@@ -64,7 +64,8 @@
 
 h1{
 	text-transform:uppercase;
-	color: #ec1d23;
+	background-color: #ec1d23;
+	color:#fff;
 	font-size:30px;
 	
 	transform:rotate(-5deg);
@@ -78,9 +79,15 @@ h1, h2{
 	font-weight:bold;
 	
 }
-h2{color: #EC9D1D;}
+h2{
+	padding-left:5px;
+	background-color: #EC9D1D;
+	color:#fff;
+}
 
-h2.color-two {color:#ECD41D}
+h2.color-two {
+	background-color:#ECD41D
+}
 
 .title {
 	text-align:center;
