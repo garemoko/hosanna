@@ -97,6 +97,11 @@ h2.color-two {
 #main p{
 	line-height:1.5em;
 }
+
+#main div{
+	overflow:hidden;
+}
+
 #main .answer{
 	font-size:1.2em;
 }
@@ -122,6 +127,26 @@ h2.color-two {
 	transform:rotate(7deg);
 	-ms-transform:rotate(7deg); /* IE 9 */
 	-webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+}
+
+#wltdo {
+	float:right;
+	margin:15px;
+	width:275px;
+	border:3px dashed #EC9D1D;
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
+}
+
+#soccer {
+	float:right;
+	margin:15px;
+	width:275px;
+	border:3px dashed #EC9D1D;
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-webkit-transform:rotate(3deg); /* Opera, Chrome, and Safari */
 }
 
 #page {
