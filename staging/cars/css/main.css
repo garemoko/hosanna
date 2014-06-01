@@ -1,0 +1,110 @@
+#main-nav
+{
+	font-family: 'Marcellus SC', serif;
+}
+
+.navbar{
+	margin-bottom:0;
+}
+
+.logo{
+	width:200px;
+}
+
+.logo-small{
+	width:100px;
+}
+html, body{
+	background-color: #000;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+#splash
+{
+	background-color:black;
+	background-image: url('../img/background.jpg');
+	background-repeat:no-repeat;
+	background-position:center top;
+	padding:0;
+	margin:0;
+	color: #ddd;
+	text-align: right;
+	height: 725px;
+}
+
+#splash_content {
+	
+	height: 725px;
+	margin: 0 auto -60px;
+}
+
+#push, #scroll-notice {
+	height: 60px;
+}
+
+#scroll-notice:hover {
+	color: #777;
+	cursor:pointer;
+}
+
+#events-list dt {
+	font-weight:bolder;
+}
+
+#events-list dt::after {
+	font-weight:bolder;
+	content:":";
+}
+
+
+#events-list dt {
+ display: inline;
+}
+#events-list dd {
+ display: inline;
+}
+
+#events-list dd:after {
+    content:"\a";
+    white-space: pre;
+}
+
+#details
+{
+	min-height:1000px;
+}
+
+.panel-default {
+	border-color: #ccc;
+	border-left-width: 10px;
+}
+
+.footer{
+	color:#fff;
+}
+
+.footer .pull-right{
+	text-align:right;
+}
+
+@media(max-width:767px){
+	#events-list {
+		font-size:1.5em;
+	}
+	#splash, #splash_content  {
+		height: 450px;
+	}
+}
+@media(min-width:768px){
+	#events-list {
+		font-size:1.7em;
+	}
+}
+@media(min-width:992px){
+	#events-list {
+		font-size:2em;
+	}
+}
+@media(min-width:1200px){}
+
