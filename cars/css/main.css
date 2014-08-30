@@ -88,6 +88,16 @@ html, body{
 	text-align:right;
 }
 
+.btn-primary{
+	background-color:#333;
+	font-weight:bold;
+}
+
+.btn-primary:hover{
+	background-color:#111;
+}
+
+
 @media(max-width:767px){
 	#events-list {
 		font-size:1.5em;

@@ -49,10 +49,13 @@ function scrollToPosition(y){
 
 
 function scrollHandler(){
+	
+	if ($(window).scrollTop() < (tallSplashHeight + 100)){
 	var newScrollTop = $(window).scrollTop();
-	setScrollButtonLabel(newScrollTop);
-	autoScroll(newScrollTop);
-	lastScrollTop = newScrollTop;
+		setScrollButtonLabel(newScrollTop);
+		autoScroll(newScrollTop);
+		lastScrollTop = newScrollTop;
+	}
 }
 
 function setScrollButtonLabel(newScrollTop){
