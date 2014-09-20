@@ -1,5 +1,5 @@
 
-var photos = [
+var footbal_photos = [
   	{src: 'img/football/SAM_5905.JPG'}, 
 	{src: 'img/football/SAM_5906.JPG'}, 
 	{src: 'img/football/SAM_5907.JPG'}, 
@@ -69,10 +69,10 @@ var photos = [
 
 
 
-$('#football-photo-btn img').attr('src', photos[Math.floor(Math.random()*photos.length)].src)
+$('#football-photo-btn img').attr('src', footbal_photos[Math.floor(Math.random()*footbal_photos.length)].src)
 
 $('#football-photo-btn').magnificPopup({
-  items: photos,
+  items: footbal_photos,
   type: 'image',
   gallery: {
     	enabled: true,
@@ -87,3 +87,63 @@ $('#football-photo-btn').magnificPopup({
 	  tCounter: '<span class="mfp-counter">%curr% of %total%</span>' 
   },
 })
+
+var chancealot_photos = [
+	{src: 'img/chancealot/IMG_1042.JPG'}, 
+	{src: 'img/chancealot/IMG_1052.JPG'}, 
+	{src: 'img/chancealot/IMG_1063.JPG'}, 
+	{src: 'img/chancealot/IMG_1075.JPG'}, 
+	{src: 'img/chancealot/IMG_1078.JPG'}, 
+	{src: 'img/chancealot/IMG_1079.JPG'}, 
+	{src: 'img/chancealot/IMG_1080.JPG'}, 
+	{src: 'img/chancealot/IMG_1082.JPG'}, 
+	{src: 'img/chancealot/IMG_1085.JPG'}, 
+	{src: 'img/chancealot/IMG_1104.JPG'}, 
+	{src: 'img/chancealot/IMG_1105.JPG'}, 
+	{src: 'img/chancealot/IMG_1109.JPG'}, 
+	{src: 'img/chancealot/IMG_1111.JPG'}, 
+	{src: 'img/chancealot/IMG_1112.JPG'}, 
+	{src: 'img/chancealot/IMG_1115.JPG'}, 
+	{src: 'img/chancealot/IMG_1116.JPG'}, 
+	{src: 'img/chancealot/IMG_1118.JPG'}, 
+	{src: 'img/chancealot/IMG_1121.JPG'}, 
+	{src: 'img/chancealot/IMG_1126.JPG'}
+  ]
+  
+
+$('#chancealot-photo-btn img').attr('src', chancealot_photos[Math.floor(Math.random()*chancealot_photos.length)].src)
+
+$('#chancealot-photo-btn').magnificPopup({
+  items: chancealot_photos,
+  type: 'image',
+  gallery: {
+    	enabled: true,
+    preload: [0,2], 
+
+	  navigateByImgClick: true,
+	
+	  arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+	
+	  tPrev: 'Previous (Left arrow key)', 
+	  tNext: 'Next (Right arrow key)', 
+	  tCounter: '<span class="mfp-counter">%curr% of %total%</span>' 
+  },
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
